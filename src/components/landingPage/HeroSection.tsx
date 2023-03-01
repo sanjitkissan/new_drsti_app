@@ -3,7 +3,7 @@ import React from "react";
 function HeroSection() {
   return (
     <section className="w-full main-container overflow-hidden flex flex-col items-center justify-center gap-6 my-24">
-      <div className="w-full">
+      <div className="w-full h-auto">
         <h1 className="text-4xl text-pink-500 font-extrabold text-center mb-4">
           Workplace Marketing
         </h1>
