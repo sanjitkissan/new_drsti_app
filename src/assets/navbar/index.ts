@@ -1,0 +1,1 @@
+export {default as Main_Logo} from "./dristi_logo.png"
