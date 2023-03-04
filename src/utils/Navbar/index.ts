@@ -3,14 +3,19 @@ import { navArrType } from "@/src/types";
 
 export const navArr:navArrType[]=[
     {
-        id:1,
+        id:0,
         title:"home",
         path:"/"
     },
     {
+        id:1,
+        title:"events",
+        path:"events"
+    },
+    {
         id:2,
-        title:"workplace partners",
-        path:"/workplace-partners"
+        title:"about us",
+        path:"about-us"
     },
     {
         id:3,
@@ -19,17 +24,12 @@ export const navArr:navArrType[]=[
     },
     {
         id:4,
-        title:"team",
-        path:"/team"
+        title:"blog",
+        path:"/blog"
     },
     {
         id:5,
-        title:"news",
-        path:"/news"
-    },
-    {
-        id:6,
-        title:"contact",
-        path:"/contact"
+        title:"workplace partners",
+        path:"/workplace-partners"
     },
 ]

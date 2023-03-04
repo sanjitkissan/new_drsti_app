@@ -49,8 +49,33 @@ export type sliderArr={
 
 export type cardArrHome={
     id:number
+    img:imgObj[]
+    mt:string
+}
+export type imgObj={
+    img1:{
+        src:string
+    }
+    id:number
+}
+
+export type homeGalleryArrType={
+    id:number
     img:{
         src:string
     }
-    mt:string
+}
+
+export type eventBreadcrumbArrType={
+    id:number
+    img:{
+        src:string
+    }
+}
+export type eventGalleryArrType={
+    id:number
+    title:string
+    img:{
+        src:string
+    }
 }

@@ -19,10 +19,7 @@ export default function CardSection() {
      
      ))}
 </div>
-  <div className='w-full flex flex-col items-center justify-center gap-4 mt-4'>
-     <p className='text-center text-xl tracking-wide  w-2/3 text-gray-800'>ECN content engages & keeps office professionals informed throughout their working day. </p>
-     <button type='button' className='rounded-full text-white font-bold py-3 px-8 bg-gradient-to-r from-red-600 to-blue-600 '>Contact us</button>
- </div>
+  
 </section>
   
   )
