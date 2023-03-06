@@ -35,12 +35,14 @@ function HomeCard({ item }: prop) {
         <>
        {
         item.img.map((items)=>(
+            <div key={items.id}>
 
-            <img
-              src={items.img1.src}
-              alt="img"
-              className={`w-full h-full object-cover ${isActiveIndex===item.id && "!z-[999]"}`}
-            />
+              <img
+                src={items.img1.src}
+                alt="img"
+                className={`w-full h-full object-cover ${isActiveIndex===item.id && "!z-[999]"}`}
+              />
+            </div>
         ))
        }
         </>
