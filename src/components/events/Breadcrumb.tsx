@@ -17,12 +17,12 @@ export default function Breadcrumb() {
     <Slider {...settings}>
     {
         breadCrumbArr.map((item)=>(
-            <>
+            <div key={item.id}>
     <section style={{backgroundImage:`url(${item?.img?.src})`}} className='w-full bg-center bg-cover bg-no-repeat h-[70vh]'>
       
     </section>
 
-        </>
+        </div>
         ))
     }
     </Slider>

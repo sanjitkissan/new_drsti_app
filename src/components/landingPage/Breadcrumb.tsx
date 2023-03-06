@@ -16,11 +16,11 @@ function Breadcrumb() {
     <section className="w-full h-[80vh] overflow-hidden ">
       <Slider {...settings}>
         {breadCeumbArr.map((item) => (
-          <>
+          <div key={item.id}>
           <section
             className="w-full h-[80vh] bg-no-repeat bg-cover bg-center  py-4"
             style={{ backgroundImage: `url(${item?.img.src})` }}
-            key={item.id}
+            
           >
             <div className="w-full main-container flex flex-col items-start justify-center  gap-6">
               <h1 className="text-white text-7xl font-extrabold w-1/4 logoWarper_two capitalize">
@@ -33,7 +33,7 @@ function Breadcrumb() {
             </div>
            
           </section>
-          </>
+          </div>
         ))}
       </Slider>
     </section>
