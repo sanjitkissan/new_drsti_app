@@ -1,7 +1,7 @@
 
-import { carousel1, carousel2, carousel3, carousel4, carousel5, gallery1, gallery15, gallery2, gallery25, gallery3 } from "@/src/assets/landinPage";
-import { dynamicContentImg1, dynamicContentImg10, dynamicContentImg11, dynamicContentImg12, dynamicContentImg13, dynamicContentImg14, dynamicContentImg15, dynamicContentImg2, dynamicContentImg3, dynamicContentImg4, dynamicContentImg5, dynamicContentImg6, dynamicContentImg7, dynamicContentImg8, dynamicContentImg9 } from "@/src/assets/landinPage/dynamicContent";
-import { homeGallery1, homeGallery10, homeGallery11, homeGallery2, homeGallery3, homeGallery4, homeGallery5, homeGallery6, homeGallery7, homeGallery8, homeGallery9 } from "@/src/assets/landinPage/gallery";
+import { carousel1, carousel2, carousel3, carousel4, carousel5 } from "@/src/assets/landinPage";
+import { dynamicContentImg1, dynamicContentImg10, dynamicContentImg12, dynamicContentImg13, dynamicContentImg14, dynamicContentImg15, dynamicContentImg2, dynamicContentImg3, dynamicContentImg4, dynamicContentImg5, dynamicContentImg6, dynamicContentImg7, dynamicContentImg8, dynamicContentImg9 } from "@/src/assets/landinPage/dynamicContent";
+import { homeGallery1, homeGallery10, homeGallery11, homeGallery2, homeGallery3, homeGallery5, homeGallery6, homeGallery7, homeGallery8, homeGallery9 } from "@/src/assets/landinPage/gallery";
 import { cardArrHome,  homeGalleryArrType,  sliderArr } from "@/src/types";
 
 export const breadCeumbArr:sliderArr[]= [
@@ -125,7 +125,7 @@ export const breadCeumbArr:sliderArr[]= [
                 },
                 {
                     id:42,
-                    img1: dynamicContentImg11,
+                    img1: dynamicContentImg10,
                 },
                 {
                     id:43,
@@ -174,7 +174,7 @@ export const breadCeumbArr:sliderArr[]= [
     },
     {
         id:4,
-        img: homeGallery4
+        img: homeGallery3
     },
     {
         id:5,
@@ -202,6 +202,6 @@ export const breadCeumbArr:sliderArr[]= [
     },
     {
         id:11,
-        img: homeGallery11
+        img: homeGallery10
     },
  ]

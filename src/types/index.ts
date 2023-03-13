@@ -79,3 +79,24 @@ export type eventGalleryArrType={
         src:string
     }
 }
+
+export type newArrCard={
+    id:number
+    title:string
+    content:string
+    img:{
+        src:string
+    }
+    
+}
+
+export type tesimonialsArrCard={
+    id:number
+    subtitle:string
+    title:string
+    content:string
+    img:{
+        src:string
+    }
+}
+

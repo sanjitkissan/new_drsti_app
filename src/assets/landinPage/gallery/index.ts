@@ -1,7 +1,6 @@
 export {default as homeGallery1} from "./gallery1.jpg"
 export {default as homeGallery2} from "./gallery2.jpg"
 export {default as homeGallery3} from "./gallery3.jpg"
-export {default as homeGallery4} from "./gallery4.jpg"
 export {default as homeGallery5} from "./gallery5.jpg"
 export {default as homeGallery6} from "./gallery6.jpg"
 export {default as homeGallery7} from "./gallery7.jpg"

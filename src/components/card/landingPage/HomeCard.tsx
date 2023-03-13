@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React,{useState,useEffect, Fragment} from "react";
 
 import { cardArrHome } from "@/src/types";
 import Slider from "react-slick";
@@ -35,14 +35,18 @@ function HomeCard({ item }: prop) {
         <>
        {
         item.img.map((items)=>(
-            <div key={items.id}>
+            // <div >
+            
 
               <img
                 src={items.img1.src}
                 alt="img"
                 className={`w-full h-full object-cover ${isActiveIndex===item.id && "!z-[999]"}`}
+                key={items.id}
               />
-            </div>
+           
+              
+            // </div>
         ))
        }
         </>
