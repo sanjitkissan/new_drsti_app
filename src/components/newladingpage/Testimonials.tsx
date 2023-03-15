@@ -12,7 +12,7 @@ function Testimonials() {
           <p className="text-gray-600 text-lg my-2 font-[Roboto]">Nam egestas mi sit amet orci dignissim tempor Integer tincidunt nunc mauris in egestas nibh.</p>
         </div>
 
-        <div className='w-full flex items-center justify-between gap-6'>
+        <div className='w-full flex flex-col lg:flex-row items-center justify-between gap-6'>
      {
        
        tesimonialsCardArr.map((item)=>(

@@ -9,9 +9,9 @@ function CardSection() {
         <h1 className='w-3/5 text-4xl text-[#e2689a] font-bold text-center font-[Roboto]'><span className='text-black'>Our</span> Services</h1>
     </div>
      <div className='w-full flex items-center justify-center gap-6'>
-     <p className='text-center text-lg  text-gray-600 my-2 font-[Roboto]'>Nam egestas mi sit amet orci dignissim tempor Integer tincidunt nunc mauris in egestas nibh.</p>
+     <p className='text-center text-lg  text-gray-600 my-2 font-[Roboto]'>coveted audience to get engage with each other to experience the product or services at their workspaces.</p>
 </div>
-<div className='w-full flex items-center justify-between gap-6'>
+<div className='w-full flex flex-col lg:flex-row items-center justify-between gap-6'>
      {
        
        newCardArr.map((item)=>(

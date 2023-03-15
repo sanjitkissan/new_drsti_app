@@ -48,14 +48,16 @@ export default function MessageSection() {
       <div className='w-full center '>
           <h1 className='text-3xl lg:text-5xl  font-bold uppercase gradient-text_4'>get in touch</h1>
       </div>
-    <section className='w-full flex flex-col lg:flex-row gap-6 lg:gap-0 items-center justify-center  '>
-      <div style={{backgroundImage:`url(${contactFormImg.src})`}} className='w-full h-[80vh] '></div>
-      <div className='w-full lg:relative'>
-            <span className='lg:absolute lg:top-1/2 lg:-left-10 lg:-translate-y-1/2 bg-white w-full p-6 flex flex-col items-start justify-center gap-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
+    <section className='w-full flex flex-col lg:flex-row gap-2 items-center justify-center  '>
+      <div  className='w-full h-[34rem] '>
+        <img src={contactFormImg.src} alt="" className='w-full h-full' />
+      </div>
+      <div className='w-full h-[34rem]'>
+            <span className='h-full w-full p-2 flex flex-col items-start justify-center gap-4 shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
                 <p className='text-xl text-red-600 tracking-wider uppercase'>give a review</p>
                 <h1 className='text-3xl font-bold tracking-wide capitalize'>leave a message</h1>
                 <p className='text-lg text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a feugiat purus. Duis turpis nunc aliquam.</p>
-                <form onSubmit={formik.handleSubmit} className='w-full flex flex-col items-start justify-center gap-4'>
+                <form onSubmit={formik.handleSubmit} className='w-full flex flex-col items-start justify-center gap-2'>
                     <span className='center w-full gap-2'>
                         <TextField 
                         className='w-full'
@@ -111,7 +113,7 @@ export default function MessageSection() {
                     />
                     <TextField 
                     className='w-full' 
-                    rows={"7"} 
+                    rows={"5"} 
                     multiline
                     name='message'
                     type={"text"}
@@ -128,7 +130,7 @@ export default function MessageSection() {
                         formik.errors.message
                       }
                     />
-                    <button className='w-full rounded-md bg-gradient-to-r from-blue-600 to-red-600 text-white text-lg tracking-wider p-4 uppercase'
+                    <button className='w-full rounded-md bg-gradient-to-r from-blue-600 to-red-600 text-white text-lg tracking-wider p-3 uppercase'
                     type='submit'
                     >send message</button>
                 </form>

@@ -51,11 +51,11 @@ function Breadcrumb() {
     });
 
     return (
-        <section className='bg-gradient-to-r from-red-600 to-blue-600 '>
-        <section className='w-full h-[35rem] main-container flex items-end justify-between '>
-         <div className='w-full h-full relative'>
-         <form onSubmit={Formik.handleSubmit} className="w-3/4 h-[35rem] flex flex-col items-center justify-center gap-6 bg-white px-6 py-4 rounded-xl absolute -bottom-20">
-         <h1 className='text-3xl text-center font-[Roboto]'>Get a free quote now</h1>
+        <section className=' bg-gradient-to-r from-red-600 to-blue-600 p-2'>
+        <section className='w-full h-auto lg:h-[35rem] main-container flex flex-col lg:flex-row items-end justify-between '>
+         <div className='w-full h-full flex center '>
+         <form onSubmit={Formik.handleSubmit} className="w-full lg:w-3/4 h-[30rem] flex flex-col items-center justify-center gap-6 bg-white px-6 py-4 rounded-xl ">
+         <h1 className='text-3xl text-center font-[Roboto] '>Get a free quote now</h1>
                 <TextField fullWidth 
                 placeholder="Name" 
                 name="name"
@@ -108,16 +108,16 @@ function Breadcrumb() {
                 }
                 />
                
-        <button className="w-full center text-[#493d69] rounded-full border-2 px-4 py-2 border-[#493d69]"
+        <button className="w-full center text-white rounded-full  px-4 py-2 bg-gradient-to-r from-red-600 to-blue-600 border-b"
             type="submit">Send Message
                 </button>
            </form>
            </div>
           <div className='w-full h-full items-center justify-start '>
-           <h1 className='text-white text-6xl font-bold center mt-20 font-[Roboto]'>Digital Product Design Agency </h1>
-           <p className='text-gray-200 text-xl  mt-5 mb-4 font-[Roboto]'>Netguru created real-time shoe design customization app. Shiftwear app allows you to display HD images.</p>
-            <span className='ml-96 center'>
-            <button className='text-black rounded-full bg-white px-6 py-2 transition-all duration-300 ease-out font-[Roboto]'>Get Started</button>
+           <h1 className='text-white text-5xl font-bold center mt-20 font-[Roboto]'> Engage with key decision-makers and target audiences</h1>
+           <p className='text-gray-200 text-xl  mt-5 mb-4 font-[Roboto]'>Get connected with the business professionals within the corporate parks through our most extensive digital network in the premium office spaces.</p>
+            <span className=''>
+            <button className='text-black rounded-full bg-white px-6 py-2 transition-all duration-300 ease-out font-[Roboto] '>Get Started</button>
            </span>
             </div>    
         </section>

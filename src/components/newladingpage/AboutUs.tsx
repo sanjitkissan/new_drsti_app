@@ -8,21 +8,21 @@ function AboutUs() {
         <section className="w-full main-container overflow-hidden flex flex-col items-center justify-center gap-6 my-24">
         <div>
           <h1 className="text-4xl text-[#e2689a] font-extrabold text-center font-[Roboto]">
-          About  <span className='text-black'>Us</span>
+          Why Workplace <span className='text-black'>Marketing?</span>
           
           </h1>
-          <p className="text-gray-600 text-lg my-2 font-[Roboto]">Nam egestas mi sit amet orci dignissim tempor Integer tincidunt nunc mauris in egestas nibh.</p>
+          <p className="text-gray-600 text-lg my-2 font-[Roboto]">Target corporate officers and business executives who influence the brand selection and procurement decisions.</p>
         </div>
-        <div className="grid lg:grid-cols-3 grid-cols-1 ">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-2 ">
           {
             aboutusArr.map((val:any,index:number)=>(
 
-            <span className={`${isActiveIndex ? " border-2 border-[#493d69]":"border-transparent"} center rounded-md hover:text-[#493d69] text-black-600 border-transparent cursor-pointer  border-2 hover:border-[#493d69] px-20 py-4`} key={val.id}
+            <span className={`${isActiveIndex == index && " border-2 !border-[#e2689a] text-[#e2689a]"} center rounded-md hover:text-[#493d69] text-black-600 border-transparent cursor-pointer  border-2 hover:border-[#493d69] px-20 py-4 active:scale-95 bg-white-500 shadow-lg shadow-red-100/50`} key={val.id}
             onClick={()=>{
               setIsActiveIndex(index)
             }}
             > 
-              <button className="font-[Roboto]  text-lg">{val.title}</button>
+              <button className="font-[Roboto]  text-lg ">{val.title}</button>
             </span>
             ))
           }

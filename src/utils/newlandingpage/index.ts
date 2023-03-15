@@ -5,33 +5,33 @@ export const  newCardArr:newArrCard[]= [
     {
         id:1,
         img: web3,
-        title:'Web Design',
-        content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?',
+        title:'Static Media',
+        content:'Placed at high footfall locations within IT parks the corporate elites actively engage and notice our brand activations.',
 
 
     },
     {
         id:2,
         img: web4,
-        title:'Web Development',
-        content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?',
+        title:'Digital Media',
+        content:'Engage high-value professionals all day long at hybrid workplaces lobbies, elevator banks, and common areas',
 
     },
 
     {
         id:3,
         img: web5,
-        title:'Web Security',
-        content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?',
+        title:'On-Ground Activation',
+        content:'Understanding the brand objectives, we conceptualize and execute customized engagements within business hubs.',
     },
 
-    {
-        id:4,
-        img: gmail,
-        title:'Mail',
-        content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?',
+    // {
+    //     id:4,
+    //     img: gmail,
+    //     title:'Mail',
+    //     content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae?',
 
-    }
+    // }
 
 
 ]
@@ -73,39 +73,38 @@ export const  tesimonialsCardArr:tesimonialsArrCard[]= [
 export const aboutusArr=[
     {
         id:1,
-        title:"history ",
+        title:"Captive audience ",
         list:{
             key:11,
-            subTitle:"history",
-            descriptionOne:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.",
-            descriptionTwo:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            subTitle:"Captive audience",
+            descriptionOne:"Employees working in a flexible workspace are a captive audience. They spend 10+ hours of their active day at workplaces, which means they are more likely to engage with brand activation activities. This makes corporate offices an excellent location to promote brand awareness and engagement.",
+            descriptionTwo:" High-frequency captive environments can increase brand awareness. When people repeatedly see the same brand or message, they are more likely to remember it and associate it with the product or service being advertised.",
             img: web2
         }
     },
     {
         id:2,
-        title:"Vision",
+        title:"Brand Loyalty",
         list:{
             key:21,
-            subTitle:"Vision",
-            descriptionOne:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.",
-            descriptionTwo:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            subTitle:"Brand Loyalty",
+            descriptionOne:"By engaging with employees in a hybrid workspace, brands have an opportunity to build brand loyalty. When office professionals have positive experiences with a brand, they are more likely to become loyal customers and advocates.",
+            descriptionTwo:"When clients are loyal to your brand, they are more likely to recommend your services to others. This can lead to positive word-of-mouth marketing, which can help to attract new clients and grow your business.",
             img: aboutusImg1
         }
     },
     {
         id:3,
-        title:"Mission",
+        title:"Personalized Touch",
         list:{
             key:31,
-            subTitle:"Mission",
-            descriptionOne:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.",
-            descriptionTwo:"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            subTitle:"Personalized Touch",
+            descriptionOne:"IT hubs offer an opportunity for brands to showcase their products and services to promising audiences. Brands can use creative activations and product demos to showcase their offerings and generate interest among elite audiences.",
+            descriptionTwo:" Create an opportunity for customers to engage with your brand on a deeper level by providing a memorable experience, build an emotional connection and increase their likelihood of making a purchase.",
             img: aboutusImg2
         }
     },
 ]
-
 export const ourTeamArr=[
     {
         id:1,
